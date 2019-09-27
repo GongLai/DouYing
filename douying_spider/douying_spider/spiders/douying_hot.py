@@ -6,8 +6,8 @@ import time
 from ..items import DouYingVideoSpiderItem
 
 
-class DouyingSpider(scrapy.Spider):
-    name = 'douying'
+class DouyingHotSpider(scrapy.Spider):
+    name = 'douying_hot'
     allowed_domains = ['snssdk.com']
     start_urls = ['https://aweme.snssdk.com/aweme/v1/hot/search/list/']
 
